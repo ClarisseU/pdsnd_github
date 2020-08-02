@@ -183,6 +183,20 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+def raw_variable(df):
+    step=1
+    begin=0
+    end=5
+        
+    while(step == 1):
+        step=int(input("\n Do you want to review individual trip data? Type 1 or 2 \n1:True \n2:False"))
+        while((step != 1) and (step != 2)):
+            step=int(input("Not a valid input. Please, try again"))
+        print(df.iloc[begin:end])
+        begin+=5
+        end+=5
+
+
 
 def main():
     while True:
@@ -194,17 +208,6 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         
-        step=1
-        begin=0
-        end=5
-        
-        while(step == 1):
-            step=int(input("\n Do you want to review individual trip data? Type 1 or 2 \n1:True \n2:False"))
-            while((step != 1) and (step != 2)):
-                step=int(input("Not a valid input. Please, try again"))
-            print(df.iloc[begin:end])
-            begin+=5
-            end+=5
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
