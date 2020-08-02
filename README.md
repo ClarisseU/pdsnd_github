@@ -1,11 +1,29 @@
 ### Date created
-Include the date you created this project and README file.
+August, 2nd 2020
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+In this project of bike share used only three cities: Chicago, New York City, and Washington by computing a variety of descriptive statistics. And it provides the following information:
+##### Popular times to travel:
+-most common month
+-most common day of week
+-most common hour of day
+
+##### Popular stations and Trip:
+-most common start station
+-most common end station
+-most common trip from start to end (i.e., most frequent combination of start station and end station)
+
+##### Trip Duration:
+-total travel time
+-average travel time
+
+##### User Information:
+-counts of each user type
+-counts of each gender (only available for NYC and Chicago)
+-earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
 ### Files used
 Include the files used
