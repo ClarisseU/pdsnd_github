@@ -26,8 +26,12 @@ In this project of bike share used only three cities: Chicago, New York City, an
 -earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
 ### Files used
-Include the files used
+I used the following files:
+-chicago.csv
+-new_york_city.csv
+-washington.csv
+-bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credits goes to Udacity and stackoverflow website which helped a lot whenever I got stack.
 
